@@ -19,7 +19,6 @@ export const Pumps2 = () => {
     (state: RootState) => state.pumps[1].serviceLife
   );
   const varanty = useSelector((state: RootState) => state.pumps[1].varanty);
-  const table = useSelector((state: RootState) => state.pumps[1].table);
   const img2 = useSelector((state: RootState) => state.pumps[1].img);
   const dispatch = useDispatch();
   // const handleIncrement = () => {
@@ -37,7 +36,7 @@ export const Pumps2 = () => {
         </div>
         <div>
           <img src={img2} alt="" />
-          {table}
+          
         </div>
 
         <div className="description2 ">

@@ -2,6 +2,7 @@
 import "./App.css";
 import { Pumps2 } from "./pump2";
 import { Pumps } from "./pumps";
+import { Table } from "./table";
 
 
 function App() {
@@ -62,6 +63,7 @@ function App() {
         </div> */}
        <div> <Pumps /></div>
       <div> <Pumps2 /></div>
+      <div> <Table /> </div>
       </div>
       
     </>
