@@ -58,17 +58,31 @@ font-weight: bolder;
 
 }
 .pumps{
+  display: flex;
+  flex-direction:row;
+gap: 10px;
+  /* justify-content: space-between; */
   border: 2px solid #333; /* Толщина, стиль и цвет границы */
   border-radius: 8px; /* Закругление углов */
   padding: 20px; /* Внутренний отступ для контента */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Тень блока */
+  background-color: white;
 }
 .zoomable-box {
  
  
-  transition: transform 0.3s ease;
+  transition: transform 0.7s ease;
 }
 
 .zoomable-box:hover {
-  transform: scale(1.05);
+  transform: scale(1.5);
 }
+.description3 {
+  display: flex;
+  flex-direction: row;
+height: 30px;
+justify-content:center;
+}
+/* body{
+  background-color: blue;
+} */
