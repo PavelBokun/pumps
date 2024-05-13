@@ -1,5 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { RootState, increment } from "./store";
+import { List } from "./package";
 
 export const Pumps = () => {
   const diam = useSelector((state: RootState) => state.pumps[0].diametr);
@@ -35,7 +36,7 @@ export const Pumps = () => {
         <div>
           <h2>{name}</h2>
         </div>
-        <div>
+        <div className="img">
           <img src={img} alt="" />
         </div>
 
@@ -80,6 +81,7 @@ export const Pumps = () => {
         </div>
         {/* <button onClick={handleIncrement}>Click me</button> */}
         {/* <p>{count}</p> */}
+        <List />
       </div>
     </>
   );

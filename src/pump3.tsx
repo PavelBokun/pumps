@@ -2,25 +2,25 @@ import { useDispatch, useSelector } from "react-redux";
 import { RootState, increment } from "./store";
 import { List } from "./package";
 
-export const Pumps2 = () => {
-  const diam = useSelector((state: RootState) => state.pumps[1].diametr);
+export const Pumps3 = () => {
+  const diam = useSelector((state: RootState) => state.pumps[2].diametr);
   const productivity = useSelector(
-    (state: RootState) => state.pumps[1].productivity
+    (state: RootState) => state.pumps[2].productivity
   );
-  const power = useSelector((state: RootState) => state.pumps[1].power);
-  const pressure = useSelector((state: RootState) => state.pumps[1].pressure);
+  const power = useSelector((state: RootState) => state.pumps[2].power);
+  const pressure = useSelector((state: RootState) => state.pumps[2].pressure);
   const constructionLength = useSelector(
-    (state: RootState) => state.pumps[1].constructionLength
+    (state: RootState) => state.pumps[2].constructionLength
   );
-  const name = useSelector((state: RootState) => state.pumps[1].name);
+  const name = useSelector((state: RootState) => state.pumps[2].name);
   const numberOfSpeeds = useSelector(
-    (state: RootState) => state.pumps[1].numberOfSpeeds
+    (state: RootState) => state.pumps[2].numberOfSpeeds
   );
   const serviceLife = useSelector(
-    (state: RootState) => state.pumps[1].serviceLife
+    (state: RootState) => state.pumps[2].serviceLife
   );
-  const varanty = useSelector((state: RootState) => state.pumps[1].varanty);
-  const img2 = useSelector((state: RootState) => state.pumps[1].img);
+  const varanty = useSelector((state: RootState) => state.pumps[2].varanty);
+  const img2 = useSelector((state: RootState) => state.pumps[2].img);
   const dispatch = useDispatch();
   // const handleIncrement = () => {
   //     dispatch(increment(5));
@@ -34,10 +34,12 @@ export const Pumps2 = () => {
       >
         <div>
           <h2>{name}</h2>
-        </div>
-        <div className="img">
-          <img src={img2} alt="" />
           
+        </div>
+        
+        <div className="img">
+         <img  src={img2} alt="" /> 
+         
         </div>
 
         <div className="description2 ">

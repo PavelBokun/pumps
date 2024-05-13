@@ -1,15 +1,23 @@
-
 import "./App.css";
 import { Pumps2 } from "./pump2";
+import { Pumps3 } from "./pump3";
 import { Pumps } from "./pumps";
 import { Table } from "./table";
 
-
 function App() {
- 
-
   return (
     <>
+      <div className="ardonix">
+        <div >
+          <img 
+            src="https://ardonix.by/upload/CNext/3cd/2yovbfb8ye2h54l3bg6b4syu01nsk5i4/logo_ardonix.png"
+            // width="500"
+            alt=""
+          />
+        </div>
+        <div>dfgg</div>
+      </div>
+
       <div className="pumps">
         {/* <div>
           <h2>Насос циркуляционный STI CR 25/4-130</h2>
@@ -61,11 +69,22 @@ function App() {
             </div>
           </div>
         </div> */}
-       <div> <Pumps /></div>
-      <div> <Pumps2 /></div>
-      <div> <Table /> </div>
+        <div className="pump">
+          {" "}
+          <Pumps />
+        </div>
+        <div className="pump">
+          {" "}
+          <Pumps2 />
+        </div>
+        <div className="pump">
+          <Pumps3 />
+        </div>
+        <div>
+          {" "}
+          <Table />{" "}
+        </div>
       </div>
-      
     </>
   );
 }

@@ -1,5 +1,5 @@
 
-const List=()=>{
+ export const List=()=>{
     return (
         <div>
            <ul>
