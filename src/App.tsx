@@ -15,7 +15,7 @@ function App() {
             alt=""
           />
         </div>
-        <div>dfgg</div>
+        <div style={{color:'darkblue',fontSize:'45px',fontWeight:'bold',paddingLeft:'50px'}}>+375 29 304 22 00 Павел</div>
       </div>
 
       <div className="pumps">
