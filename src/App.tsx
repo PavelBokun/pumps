@@ -1,6 +1,11 @@
 import "./App.css";
 import { Pumps2 } from "./pump2";
 import { Pumps3 } from "./pump3";
+import { Pumps4 } from "./pump4";
+import { Pumps5 } from "./pump5";
+import { Pumps6 } from "./pump6";
+import { Pumps7 } from "./pump7";
+import { Pumps8 } from "./pump8";
 import { Pumps } from "./pumps";
 import { Table } from "./table";
 
@@ -79,6 +84,21 @@ function App() {
         </div>
         <div className="pump">
           <Pumps3 />
+        </div>
+        <div className="pump">
+          <Pumps4 />
+        </div>
+        <div className="pump">
+          <Pumps5 />
+        </div>
+        <div className="pump">
+          <Pumps6 />
+        </div>
+        <div className="pump">
+          <Pumps7 />
+        </div>
+        <div className="pump">
+          <Pumps8 />
         </div>
         <div>
           {" "}

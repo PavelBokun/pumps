@@ -19,6 +19,7 @@ font-weight: bolder;
 .pumps{
   display: flex;
   flex-direction:row;
+  flex-wrap: wrap;
 gap: 10px;
   /* justify-content: space-between; */
   border: 2px solid #333; /* Толщина, стиль и цвет границы */
@@ -50,11 +51,23 @@ body{
   /* background-color: blue; */
 }
 .pump{
+ 
   background-color: aquamarine;
   border-radius: 10px;
 }
 img {
-  /* border: 2px solid black; */
+ 
+  /* display: flex;
+  justify-content: center;
+ 
+ border: 2px black solid; */
+ 
+  
+}
+.img{
+  display: flex;
+  justify-content: center;
+  align-items: center; 
 }
 @media  (max-width: 800px) {
  
@@ -74,6 +87,8 @@ img {
   .img{
     display: flex;
     justify-content: center;
+    /* border: 2px solid black; */
+    
   }
   
   /* Ваши стили для смартфонов */
@@ -82,4 +97,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+h2{
+  margin:10px
 }
