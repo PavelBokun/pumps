@@ -1,5 +1,5 @@
-import { useDispatch, useSelector } from "react-redux";
-import { RootState, increment } from "./store";
+import {useSelector } from "react-redux";
+import { RootState } from "./store";
 import { List } from "./package";
 
 export const Pumps3 = () => {
