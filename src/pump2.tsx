@@ -21,7 +21,7 @@ export const Pumps2 = () => {
   );
   const varanty = useSelector((state: RootState) => state.pumps[1].varanty);
   const img2 = useSelector((state: RootState) => state.pumps[1].img);
-  const dispatch = useDispatch();
+//   const dispatch = useDispatch();
   // const handleIncrement = () => {
   //     dispatch(increment(5));
   //   }
