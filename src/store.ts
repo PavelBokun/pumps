@@ -71,6 +71,23 @@ const initialState: PumpsType[] = [
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
+  {
+    name: "Насос дренажный STI UP-250 P ",
+    price: 90,
+    quantity: 50,
+    diametr: 32,
+    id: 3,
+    productivity: 11,
+    power: 250,
+    pressure: 8,
+    constructionLength: 180,
+    numberOfSpeeds: 3,
+    serviceLife: 5,
+    varanty: 1,
+    img: "https://tula.elfgroup.ru/upload/resize_cache/iblock/d8c/390_390_2/up250p_litso.jpg",
+    table:
+      "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
+  },
 ];
 
 // Create a counter slice
