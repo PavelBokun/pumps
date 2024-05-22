@@ -71,7 +71,7 @@ img {
   display: flex;
   justify-content: center;
   align-items: center; 
-  margin-bottom: 12px;
+  margin-bottom: 10px;
   /* width: 495px; */
 }
 @media  (max-width: 1080px) {
@@ -110,3 +110,10 @@ flex-wrap: wrap;
 h2{
   margin:10px
 }
+.info{
+display: inline-block;
+width: 500px;
+font-weight: bolder;
+font-size: 14px;
+}
+

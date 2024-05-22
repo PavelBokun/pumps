@@ -1,33 +1,24 @@
 import { useSelector } from "react-redux";
 import { RootState} from "./store";
-import { List } from "./package";
 
-export const Pumps9 = () => {
-  const diam = useSelector((state: RootState) => state.pumps[3].diametr);
+export const Pumps12 = () => {
+  
   const productivity = useSelector(
-    (state: RootState) => state.pumps[3].productivity
+    (state: RootState) => state.pumps[5].productivity
   );
-  const power = useSelector((state: RootState) => state.pumps[3].power);
-  const pressure = useSelector((state: RootState) => state.pumps[3].pressure);
-  const constructionLength = useSelector(
-    (state: RootState) => state.pumps[3].constructionLength
-  );
-  const name = useSelector((state: RootState) => state.pumps[3].name);
-  const numberOfSpeeds = useSelector(
-    (state: RootState) => state.pumps[3].numberOfSpeeds
-  );
+  const power = useSelector((state: RootState) => state.pumps[5].power);
+  const pressure = useSelector((state: RootState) => state.pumps[5].pressure);
+  
+  const name = useSelector((state: RootState) => state.pumps[5].name);
+  
   const serviceLife = useSelector(
-    (state: RootState) => state.pumps[3].serviceLife
+    (state: RootState) => state.pumps[5].serviceLife
   );
-  const varanty = useSelector((state: RootState) => state.pumps[3].varanty);
-  const img2 = useSelector((state: RootState) => state.pumps[3].img);
-  const price = useSelector((state: RootState) => state.pumps[4].price1);
-  const info = useSelector((state: RootState) => state.pumps[4].opicanie);
+  const varanty = useSelector((state: RootState) => state.pumps[5].varanty);
+  const info= useSelector((state: RootState) => state.pumps[5].opicanie);
 
-//   const dispatch = useDispatch();
-  // const handleIncrement = () => {
-  //     dispatch(increment(5));
-  //   }
+  const img2 = useSelector((state: RootState) => state.pumps[5].img);
+
   return (
     <>
       <div></div>
@@ -45,10 +36,7 @@ export const Pumps9 = () => {
          
         </div>
 
-        <div className="description2 ">
-          <div>Диаметр условный (DN)</div>
-          <div className="colorP">{`_____${diam}`}</div>
-        </div>
+        
         <div className="description2">
           <div>Производительность, л./мин.</div>{" "}
           <div className="colorP">{productivity}</div>
@@ -59,14 +47,8 @@ export const Pumps9 = () => {
         <div className="description2">
           <div>Напор, м.вод.ст.</div> <div className="colorP">{pressure}</div>
         </div>
-        <div className="description2">
-          <div>Строительная длина</div>{" "}
-          <div className="colorP">{constructionLength}</div>
-        </div>
-        <div className="description2">
-          <div>Количество скоростей</div>{" "}
-          <div className="colorP">{numberOfSpeeds}</div>
-        </div>
+        
+        
         <div className="description2">
           <div>Срок службы, лет</div>{" "}
           <div className="colorP">{serviceLife}</div>
@@ -77,11 +59,16 @@ export const Pumps9 = () => {
         </div>
         <div className="description3 zoomable-box">
           <div style={{ color: "red", fontWeight: "bold", fontSize: "20px" }}>
-            Цена :{`${price} руб.`}
+            Цена :{" "}
+          </div>{" "}
+          <div style={{ color: "red", fontWeight: "bold", fontSize: "20px" }}>
+            {" "}
+            90 pуб.{" "}
           </div>
           
         </div>
         <div className="info">{info}</div>
+        
         {/* <button onClick={handleIncrement}>Click me</button> */}
         {/* <p>{count}</p> */}
         {/* <List /> */}

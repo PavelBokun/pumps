@@ -1,4 +1,7 @@
 import "./App.css";
+import { Pumps10 } from "./pump10";
+import { Pumps11 } from "./pump11";
+import { Pumps12 } from "./pump12";
 import { Pumps2 } from "./pump2";
 import { Pumps3 } from "./pump3";
 import { Pumps4 } from "./pump4";
@@ -62,6 +65,15 @@ function App() {
         </div>
         <div className="pump">
           <Pumps9 />
+        </div>
+        <div className="pump">
+          <Pumps10 />
+        </div>
+        <div className="pump">
+          <Pumps11 />
+        </div>
+        <div className="pump">
+          <Pumps12 />
         </div>
         <div>
           {" "}
