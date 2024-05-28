@@ -34,6 +34,7 @@ function App() {
         >
           +375 29 304 22 00 Павел
         </div>
+          
       </div>
 
       <div className="pumps">
