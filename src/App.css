@@ -49,24 +49,22 @@ gap: 10px;
 height: 30px;
 justify-content:center;
 }
-body{
-  /* background-color: blue; */
-}
+
 .pump{
  
   background-color: rgb(175, 217, 238);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
 }
-img {
+/* img {
  
-  /* display: flex;
+  display: flex;
   justify-content: center;
  
  border: 2px black solid; */
- 
   
-}
+  
+ */
 .img{
   display: flex;
   justify-content: center;
