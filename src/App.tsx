@@ -11,6 +11,7 @@ import { Pumps7 } from "./pump7";
 import { Pumps8 } from "./pump8";
 import { Pumps9 } from "./pump9";
 import { Pumps } from "./pumps";
+import { Pumps13 } from "./pumps13";
 import { Table } from "./table";
 
 function App() {
@@ -75,6 +76,9 @@ function App() {
         </div>
         <div className="pump">
           <Pumps12 />
+        </div>
+        <div className="pump">
+          <Pumps13 />
         </div>
         <div>
           {" "}
