@@ -67,7 +67,10 @@ export const Pumps12 = () => {
           </div>
           
         </div>
+        <div className="main_info">
         <div className="info">{info}</div>
+        </div>
+        
         
         {/* <button onClick={handleIncrement}>Click me</button> */}
         {/* <p>{count}</p> */}
