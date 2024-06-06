@@ -38,23 +38,23 @@ export const Pumps13 = () => {
 
         
         <div className="description2">
-          <div>Производительность, л./мин.</div>{" "}
+          <div>Производительность, л./мин./</div>{" "}
           <div className="colorP">{productivity}</div>
         </div>
         <div className="description2">
-          <div>Мощность, Вт.</div> <div className="colorP">{power}</div>
+          <div>Мощность, Вт./</div> <div className="colorP">{power}</div>
         </div>
         <div className="description2">
-          <div>Напор, м.вод.ст.</div> <div className="colorP">{pressure}</div>
+          <div>Напор, м.вод.ст./</div> <div className="colorP">{pressure}</div>
         </div>
         
         
         <div className="description2">
-          <div>Срок службы, лет</div>{" "}
+          <div>Срок службы, лет./</div>{" "}
           <div className="colorP">{serviceLife}</div>
         </div>
         <div className="description2">
-          <div>Срок гарантии производителя, лет</div>{" "}
+          <div>Срок гарантии производителя, лет./</div>{" "}
           <div className="colorP">{varanty}</div>
         </div>
         <div className="description3 zoomable-box">
