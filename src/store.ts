@@ -6,6 +6,12 @@ type PumpsType = {
   name1?: string;
   name2?: string;
   name3?: string;
+  name4?: string;
+  name5?: string;
+  name6?: string;
+  name7?: string;
+  name8?: string;
+  name9?: string;
   price: number;
   price1?: number;
   price2?: number;
@@ -21,8 +27,16 @@ type PumpsType = {
   serviceLife: number;
   varanty: number;
   img: string;
+  img1?: string;
   img2?: string;
   img3?: string;
+  img4?: string;
+  img5?: string;
+  img6?: string;
+  img7?: string;
+  img8?: string;
+  img9?: string;
+
   table: string;
   opicanie?: string;
 };
@@ -65,6 +79,17 @@ const initialState: PumpsType[] = [
   },
   {
     name: "Насос циркуляционный STI CR 32/4-180",
+    name1: "Насос циркуляционный STI CR 32/10-220",
+    name2: "Насос циркуляционный STI CR 32/12-220",
+    name3: "Насос циркуляционный STI CR 40/10-220F",
+    name4: "Насос циркуляционный STI CR 40/12-220F",
+    name5: "Насос циркуляционный STI CR 40/14-250F",
+    name6: " Насос циркуляционный STI CR 50/10-220F",
+    name7: " Насос циркуляционный STI CR 50/12-220F",
+    name8: " Насос циркуляционный STI CR 50/14-250F",
+    name9: " Насос циркуляционный STI CR 50/14-280F",
+
+
     price: 90,
     quantity: 50,
     diametr: 32,
@@ -77,6 +102,9 @@ const initialState: PumpsType[] = [
     serviceLife: 5,
     varanty: 2,
     img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/9cc/xcx2quhnepilnsxl8yru3c3vgtgyldn9/390_390_2/nasos_tsirkulyatsionnyy_sti_32_8_500_.jpg",
+    img1: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/ad7/y8u0f6u62s3j4ub8ycokwjg3se2robix/390_390_2/TT000017719_1.jpg",
+    img2: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/3c1/glmriqihesosv4ore4nf85hdd61sc08t/390_390_2/TT000017720_1.jpg",
+    img3: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/ba7/us1trwpcgtwxlen5cezrzx48f0ykuupn/390_390_2/TT000017721_1.jpg",
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
@@ -142,7 +170,7 @@ const initialState: PumpsType[] = [
     varanty: 1,
     img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/368/umkfi24k6c1i9dwy9vcxncb6yesdlwpf/390_390_2/TT000018055_1.jpg",
     img2: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/880/lybbpmay2ah58vhkxa5qnwg4m7fiayof/390_390_2/TT000018054_1.jpg",
-    table:"",
+    table: "",
   },
 ];
 
