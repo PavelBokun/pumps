@@ -1,4 +1,5 @@
 import "./App.css";
+import { App2 } from "./component";
 import { Pumps10 } from "./pump10";
 import { Pumps11 } from "./pump11";
 import { Pumps12 } from "./pump12";
@@ -85,11 +86,13 @@ function App() {
         </div>
         <div className="pump">
           <Pumps13 />
+         
         </div>
         <div>
           {" "}
           <Table />{" "}
         </div>
+        {/* <div><App2/></div> */}
       </div>
     </>
   );

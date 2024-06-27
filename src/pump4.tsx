@@ -12,7 +12,7 @@ export const Pumps4 = () => {
   const constructionLength = useSelector(
     (state: RootState) => state.pumps[2].constructionLength
   );
-  const name = useSelector((state: RootState) => state.pumps[2].name);
+  const name = useSelector((state: RootState) => state.pumps[2].name1);
   const numberOfSpeeds = useSelector(
     (state: RootState) => state.pumps[2].numberOfSpeeds
   );

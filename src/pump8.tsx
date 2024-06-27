@@ -12,7 +12,7 @@ export const Pumps8 = () => {
   const constructionLength = useSelector(
     (state: RootState) => state.pumps[2].constructionLength
   );
-  const name = useSelector((state: RootState) => state.pumps[2].name);
+  const name = useSelector((state: RootState) => state.pumps[2].name5);
   const numberOfSpeeds = useSelector(
     (state: RootState) => state.pumps[2].numberOfSpeeds
   );
@@ -20,7 +20,7 @@ export const Pumps8 = () => {
     (state: RootState) => state.pumps[2].serviceLife
   );
   const varanty = useSelector((state: RootState) => state.pumps[2].varanty);
-  const img2 = useSelector((state: RootState) => state.pumps[2].img);
+  const img2 = useSelector((state: RootState) => state.pumps[2].img3);
 //   const dispatch = useDispatch();
   // const handleIncrement = () => {
   //     dispatch(increment(5));
