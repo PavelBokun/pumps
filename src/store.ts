@@ -22,7 +22,16 @@ type PumpsType = {
   productivity: number;
   power: number;
   pressure: number;
-  constructionLength: number;
+  constructionLength?: number;
+  constructionLength1?:number,
+    constructionLength2?:number,
+    constructionLength3?:number,
+    constructionLength4?:number,
+    constructionLength5?:number,
+    constructionLength6?:number,
+    constructionLength7?:number,
+    constructionLength8?:number,
+    constructionLength9?:number,
   numberOfSpeeds?: number;
   serviceLife: number;
   varanty: number;
@@ -98,6 +107,15 @@ const initialState: PumpsType[] = [
     power: 60,
     pressure: 4,
     constructionLength: 180,
+    constructionLength1:220,
+    constructionLength2:220,
+    constructionLength3:220,
+    constructionLength4:220,
+    constructionLength5:250,
+    constructionLength6:220,
+    constructionLength7:220,
+    constructionLength8:250,
+    constructionLength9:280,
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 2,

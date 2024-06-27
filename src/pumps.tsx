@@ -1,6 +1,6 @@
 import {  useSelector } from "react-redux";
 import { RootState} from "./store";
-import { List } from "./package";
+import { List } from "./List";
 
 export const Pumps = () => {
   const diam = useSelector((state: RootState) => state.pumps[0].diametr);

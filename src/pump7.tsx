@@ -1,6 +1,7 @@
 import { useSelector } from "react-redux";
 import { RootState} from "./store";
-import { List } from "./package";
+import { List } from "./List";
+import DeliveryKit from "./description";
 
 export const Pumps7 = () => {
   const diam = useSelector((state: RootState) => state.pumps[2].diametr);
@@ -83,7 +84,8 @@ export const Pumps7 = () => {
         </div>
         {/* <button onClick={handleIncrement}>Click me</button> */}
         {/* <p>{count}</p> */}
-        <List />
+        {/* <List /> */}
+        <DeliveryKit />
       </div>
     </>
   );
