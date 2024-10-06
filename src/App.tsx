@@ -1,5 +1,4 @@
 import "./App.css";
-import { App2 } from "./component";
 import { Pumps10 } from "./pump10";
 import { Pumps11 } from "./pump11";
 import { Pumps12 } from "./pump12";
@@ -13,9 +12,11 @@ import { Pumps8 } from "./pump8";
 import { Pumps9 } from "./pump9";
 import { Pumps } from "./pumps";
 import { Pumps13 } from "./pumps13";
+import { Pumps14 } from "./pumps14";
 import { Table } from "./table";
 
 function App() {
+  
     return (
     <>
       <div className="ardonix">
@@ -88,11 +89,17 @@ function App() {
           <Pumps13 />
          
         </div>
+       
         <div>
-          {" "}
+          {" "}   
           <Table />{" "}
         </div>
-        {/* <div><App2/></div> */}
+        <div className="endFix"> 
+        <div  >
+        <Pumps14 />
+        </div>
+        </div>
+        
       </div>
     </>
   );
