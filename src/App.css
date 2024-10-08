@@ -54,7 +54,8 @@ justify-content:center;
  
   background-color: rgb(175, 237, 238);
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8)
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+  display: inline-block;
 }
 img {
  
