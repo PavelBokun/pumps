@@ -73,7 +73,7 @@ img {
   margin-bottom: 10px;
   /* width: 495px; */
 }
-@media  (max-width: 1080px) {
+@media  (max-width: 800px) {
  
   .pumps {
     display: flex;
@@ -96,9 +96,14 @@ flex-wrap: wrap;
     display: flex;
     justify-content: center;
     /* border: 2px solid black; */
-    
+      
   }
+  .adaptision{
+    display: flex;
+    flex-direction: row;
   
+
+  }
   /* Ваши стили для смартфонов */
 }
 .ardonix{
@@ -164,3 +169,4 @@ justify-content: center;
 .center{
  margin-left: 180px;
 }
+

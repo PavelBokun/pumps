@@ -19,14 +19,15 @@ function App() {
   
     return (
     <>
-      <div className="ardonix">
+    <div className="adaptision">
+    <div className="ardonix">
         <div>
           <img
             src="https://ardonix.by/upload/CNext/3cd/2yovbfb8ye2h54l3bg6b4syu01nsk5i4/logo_ardonix.png"
             alt=""
           />
         </div>
-        <div
+        <div 
           style={{
             color: "darkblue",
             fontSize: "25px",
@@ -42,6 +43,8 @@ function App() {
           На сайт ➡
         </a>
       </div>
+    </div>
+      
 
       <div className="pumps">
         <div className="pump">
