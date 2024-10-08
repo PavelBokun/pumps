@@ -1,6 +1,5 @@
 import { useSelector } from "react-redux";
 import { RootState} from "./store";
-import { List } from "./List";
 import DeliveryKit from "./description";
 
 export const Pumps7 = () => {
