@@ -73,11 +73,11 @@ img {
   margin-bottom: 10px;
   /* width: 495px; */
 }
-@media  (max-width: 800px) {
+@media  (max-width: 1080px) {
  
   .pumps {
     display: flex;
-    flex-direction: row;
+    flex-direction: row,;
 flex-wrap: wrap;
     gap: 20px;
     padding: 10px;
@@ -100,7 +100,8 @@ flex-wrap: wrap;
   }
   .adaptision{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    color:'green'
   
 
   }
