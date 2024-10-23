@@ -38,7 +38,7 @@ export const Pumps8 = () => {
         </div>
         
         <div className="img">
-         <img  src={img2} alt="" /> 
+         <img  src={img2} alt="тт" /> 
          
         </div>
 

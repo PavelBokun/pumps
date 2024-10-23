@@ -1,4 +1,5 @@
 import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
+import image1 from './assets/nasos_tsirkulyatsionnyy_sti_25_6_500.jpg'
 
 // Define the initial state interface
 type PumpsType = {
@@ -23,15 +24,15 @@ type PumpsType = {
   power: number;
   pressure: number;
   constructionLength?: number;
-  constructionLength1?:number,
-    constructionLength2?:number,
-    constructionLength3?:number,
-    constructionLength4?:number,
-    constructionLength5?:number,
-    constructionLength6?:number,
-    constructionLength7?:number,
-    constructionLength8?:number,
-    constructionLength9?:number,
+  constructionLength1?: number;
+  constructionLength2?: number;
+  constructionLength3?: number;
+  constructionLength4?: number;
+  constructionLength5?: number;
+  constructionLength6?: number;
+  constructionLength7?: number;
+  constructionLength8?: number;
+  constructionLength9?: number;
   numberOfSpeeds?: number;
   serviceLife: number;
   varanty: number;
@@ -65,7 +66,7 @@ const initialState: PumpsType[] = [
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 2,
-    img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/818/390_390_2/4_130.jpg",
+    img: image1,
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
@@ -82,8 +83,8 @@ const initialState: PumpsType[] = [
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 2,
-    img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/31a/390_390_2/nasos_tsirkulyatsionnyy_sti_25_6_500.jpg",
-    table:
+    img:image1,
+      table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
   {
@@ -98,7 +99,6 @@ const initialState: PumpsType[] = [
     name8: " Насос циркуляционный STI CR 50/14-250F",
     name9: " Насос циркуляционный STI CR 50/14-280F",
 
-
     price: 90,
     quantity: 50,
     diametr: 32,
@@ -107,19 +107,19 @@ const initialState: PumpsType[] = [
     power: 60,
     pressure: 4,
     constructionLength: 180,
-    constructionLength1:220,
-    constructionLength2:220,
-    constructionLength3:220,
-    constructionLength4:220,
-    constructionLength5:250,
-    constructionLength6:220,
-    constructionLength7:220,
-    constructionLength8:250,
-    constructionLength9:280,
+    constructionLength1: 220,
+    constructionLength2: 220,
+    constructionLength3: 220,
+    constructionLength4: 220,
+    constructionLength5: 250,
+    constructionLength6: 220,
+    constructionLength7: 220,
+    constructionLength8: 250,
+    constructionLength9: 280,
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 2,
-    img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/9cc/xcx2quhnepilnsxl8yru3c3vgtgyldn9/390_390_2/nasos_tsirkulyatsionnyy_sti_32_8_500_.jpg",
+    img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/9cc/xcx2quhnepilnsxl8yru3c3vgtgyldn9/390_390_2/nasos_tsirkulyatsionnyy_sti_32_8_500_.jpg?attempt=1",
     img1: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/ad7/y8u0f6u62s3j4ub8ycokwjg3se2robix/390_390_2/TT000017719_1.jpg",
     img2: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/3c1/glmriqihesosv4ore4nf85hdd61sc08t/390_390_2/TT000017720_1.jpg",
     img3: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/ba7/us1trwpcgtwxlen5cezrzx48f0ykuupn/390_390_2/TT000017721_1.jpg",

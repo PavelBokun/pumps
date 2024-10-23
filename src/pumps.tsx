@@ -37,7 +37,7 @@ export const Pumps = () => {
           <h2>{name}</h2>
         </div>
         <div className="img">
-          <img src={img} alt="" />
+          <img src={img} alt=""  />
         </div>
 
         <div className="description2 ">

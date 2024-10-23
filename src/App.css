@@ -2,6 +2,7 @@
 .description{
   display: flex;
   flex-direction: column;
+  height: auto
   
 }
 .description2{
@@ -95,9 +96,14 @@ flex-wrap: wrap;
   .img{
     display: flex;
     justify-content: center;
-    /* border: 2px solid black; */
+    border: 2px solid black;
+    
       
   }
+  /* #img{
+    width:300px;
+    height:300px;
+  } */
   .adaptision{
     display: flex;
     flex-direction: column;
