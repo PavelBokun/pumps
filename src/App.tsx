@@ -16,35 +16,33 @@ import { Pumps14 } from "./pumps14";
 import { Table } from "./table";
 
 function App() {
-  
-    return (
+  return (
     <>
-    <div className="adaptision">
-    <div className="ardonix">
-        <div>
-          <img
-            src="https://ardonix.by/upload/CNext/3cd/2yovbfb8ye2h54l3bg6b4syu01nsk5i4/logo_ardonix.png"
-            alt=""
-          />
+      <div className="adaptision">
+        <div className="ardonix">
+          <div>
+            <img
+              src="https://ardonix.by/upload/CNext/3cd/2yovbfb8ye2h54l3bg6b4syu01nsk5i4/logo_ardonix.png"
+              alt=""
+            />
+          </div>
+          <div
+            style={{
+              color: "darkblue",
+              fontSize: "25px",
+              fontWeight: "bold",
+              paddingLeft: "50px",
+            }}
+          >
+            Ведущий поставщик инженерной сантехники Ардоникс предлагает широкий
+            ассортимент продукции, включая трубы, фитинги, насосы,
+            сантехнические арматуры, радиаторы, бойлеры и многое другое.
+          </div>
+          <a href="https://ardonix.by/" className="styled-link">
+            На сайт ➡
+          </a>
         </div>
-        <div 
-          style={{
-            color: "darkblue",
-            fontSize: "25px",
-            fontWeight: "bold",
-            paddingLeft: "50px",
-          }}
-        >
-          Ведущий поставщик инженерной сантехники Ардоникс предлагает широкий
-          ассортимент продукции, включая трубы, фитинги, насосы, сантехнические
-          арматуры, радиаторы, бойлеры и многое другое.
-        </div>
-        <a href="https://ardonix.by/" className="styled-link">
-          На сайт ➡
-        </a>
       </div>
-    </div>
-      
 
       <div className="pumps">
         <div className="pump">
@@ -90,19 +88,17 @@ function App() {
         </div>
         <div className="pump">
           <Pumps13 />
-         
         </div>
-       
+
         <div>
-          {" "}   
+          {" "}
           <Table />{" "}
         </div>
-        <div className="endFix"> 
-        <div  >
-        <Pumps14 />
+        <div className="endFix">
+          <div>
+            <Pumps14 />
+          </div>
         </div>
-        </div>
-        
       </div>
     </>
   );
