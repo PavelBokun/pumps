@@ -1,5 +1,15 @@
 import { configureStore, createSlice, PayloadAction } from "@reduxjs/toolkit";
-import image1 from './assets/nasos_tsirkulyatsionnyy_sti_25_6_500.jpg'
+import image1 from './assets/nasos_tsirkulyatsionnyy_sti_25_6_500.jpg';
+import image130 from './assets/4_130.jpg'
+import image32 from './assets/nasos_tsirkulyatsionnyy_sti_32_8_500_.jpg'
+import image40 from './assets/TT000017721_1.jpg'
+import image250 from './assets/up250p_litso.jpg'
+import image400 from './assets/up400p_litso.jpg'
+import image550 from './assets/up550p_litso_500.jpg'
+import imageV from './assets/TT000018054_1.jpg'
+import imageN from './assets/TT000018055_1.jpg'
+
+
 
 // Define the initial state interface
 type PumpsType = {
@@ -66,7 +76,7 @@ const initialState: PumpsType[] = [
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 2,
-    img: image1,
+    img: image130,
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
@@ -119,10 +129,10 @@ const initialState: PumpsType[] = [
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 2,
-    img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/9cc/xcx2quhnepilnsxl8yru3c3vgtgyldn9/390_390_2/nasos_tsirkulyatsionnyy_sti_32_8_500_.jpg?attempt=1",
-    img1: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/ad7/y8u0f6u62s3j4ub8ycokwjg3se2robix/390_390_2/TT000017719_1.jpg",
-    img2: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/3c1/glmriqihesosv4ore4nf85hdd61sc08t/390_390_2/TT000017720_1.jpg",
-    img3: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/ba7/us1trwpcgtwxlen5cezrzx48f0ykuupn/390_390_2/TT000017721_1.jpg",
+    img: image32,
+    img1: image32,
+    img2: image40,
+    img3: image40,
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
@@ -139,7 +149,7 @@ const initialState: PumpsType[] = [
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 1,
-    img: "https://tula.elfgroup.ru/upload/resize_cache/iblock/d8c/390_390_2/up250p_litso.jpg",
+    img: image250,
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
@@ -163,9 +173,9 @@ const initialState: PumpsType[] = [
     numberOfSpeeds: 3,
     serviceLife: 5,
     varanty: 1,
-    img: "https://tula.elfgroup.ru/upload/resize_cache/iblock/746/390_390_2/up400p_litso.jpg",
-    img2: "https://moscow.elfgroup.ru/upload/medialibrary/b10/modelnyy_ryad_drenazhnye_fekalnye_sti.jpg",
-    img3: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/51c/390_390_2/fp550p_litso.jpg",
+    img: image250,
+    img2: image400,
+    img3: image550,
     table:
       "https://moscow.elfgroup.ru/upload/medialibrary/49a/2c6yulnkykyf15krb5w0d1hmo508pvgb/nasos_cirkulyacionnyj_sti_cr_560.png",
   },
@@ -186,8 +196,8 @@ const initialState: PumpsType[] = [
     constructionLength: 180,
     serviceLife: 2,
     varanty: 1,
-    img: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/368/umkfi24k6c1i9dwy9vcxncb6yesdlwpf/390_390_2/TT000018055_1.jpg",
-    img2: "https://moscow.elfgroup.ru/upload/resize_cache/iblock/880/lybbpmay2ah58vhkxa5qnwg4m7fiayof/390_390_2/TT000018054_1.jpg",
+    img: imageN,
+    img2: imageV,
     table: "",
   },
 ];
