@@ -5,7 +5,8 @@ import { splite } from "./data";
 const sentense ="hellow my friends"
 const result=splite(sentense)
 console.log(result)
-export const Pumps2 = () => {
+
+  const Pumps2 = () => {
   
   const diam = useSelector((state: RootState) => state.pumps[1].diametr);
   const productivity = useSelector(
@@ -90,3 +91,4 @@ export const Pumps2 = () => {
     </>
   );
 };
+export default Pumps2

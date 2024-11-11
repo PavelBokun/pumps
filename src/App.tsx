@@ -1,8 +1,9 @@
+import React, { Suspense } from "react";
 import "./App.css";
 import { Pumps10 } from "./pump10";
 import { Pumps11 } from "./pump11";
 import { Pumps12 } from "./pump12";
-import { Pumps2 } from "./pump2";
+// import { Pumps2 } from "./pump2";
 import { Pumps3 } from "./pump3";
 import { Pumps4 } from "./pump4";
 import { Pumps5 } from "./pump5";
@@ -14,7 +15,11 @@ import { Pumps } from "./pumps";
 import { Pumps13 } from "./pumps13";
 import { Pumps14 } from "./pumps14";
 import { Table } from "./table";
-
+const LazyComponent = React.lazy(() => {
+  return new Promise<{ default: React.ComponentType<any> }>(resolve =>
+    setTimeout(() => resolve(import("./pump2")), 5000) // Задержка в 5 секунд
+  );
+});
 function App() {
   return (
     <>
@@ -51,7 +56,10 @@ function App() {
         </div>
         <div className="pump">
           {" "}
-          <Pumps2 />
+          {/* <Pumps2 /> */}
+          <Suspense fallback={<div>Loading...</div>}>
+        <LazyComponent />
+      </Suspense>
         </div>
         <div className="pump">
           <Pumps3 />
