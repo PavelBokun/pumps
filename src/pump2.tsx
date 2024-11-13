@@ -1,10 +1,6 @@
 import { useSelector } from "react-redux";
 import { RootState } from "./store";
 import { List } from "./List";
-import { splite } from "./data";
-const sentense ="hellow my friends"
-const result=splite(sentense)
-console.log(result)
 
   const Pumps2 = () => {
   
