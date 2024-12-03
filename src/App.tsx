@@ -23,7 +23,7 @@ const LazyComponent = React.lazy(() => {
 function App() {
   return (
     <>
-      <div className="adaptision">
+          <div className="adaptision">
         <div className="ardonix">
           <div>
             <img
