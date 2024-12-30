@@ -15,15 +15,16 @@ import { Pumps } from "./pumps";
 import { Pumps13 } from "./pumps13";
 import { Pumps14 } from "./pumps14";
 import { Table } from "./table";
+import { App2 } from "./component";
 const LazyComponent = React.lazy(() => {
-  return new Promise<{ default: React.ComponentType<any> }>(resolve =>
-    setTimeout(() => resolve(import("./pump2")), 5000) // Задержка в 5 секунд
+  return new Promise<{ default: React.ComponentType<any> }>(
+    (resolve) => setTimeout(() => resolve(import("./pump2")), 5000) // Задержка в 5 секунд
   );
 });
 function App() {
   return (
     <>
-          <div className="adaptision">
+      <div className="adaptision">
         <div className="ardonix">
           <div>
             <img
@@ -58,8 +59,8 @@ function App() {
           {" "}
           {/* <Pumps2 /> */}
           <Suspense fallback={<div>Loading...</div>}>
-        <LazyComponent />
-      </Suspense>
+            <LazyComponent />
+          </Suspense>
         </div>
         <div className="pump">
           <Pumps3 />
@@ -105,7 +106,6 @@ function App() {
         <div className="endFix">
           <div>
             <Pumps14 />
-            
           </div>
         </div>
       </div>
